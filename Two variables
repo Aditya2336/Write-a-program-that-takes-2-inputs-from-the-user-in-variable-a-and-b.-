@@ -1,0 +1,17 @@
+# Taking input from the user
+a = float(input("Enter the first number (a): "))
+b = float(input("Enter the second number (b): "))
+
+# Floor Division
+floor_division_result = a // b
+
+# Power calculation
+power_result = a ** b
+
+# Check for equality
+are_equal = a == b
+
+# Print the results
+print("Floor Division result:", floor_division_result)
+print("a to the power of b:", power_result)
+print("Are a and b equal?", are_equal)
